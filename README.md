@@ -1,6 +1,6 @@
 # Diary Bot RAG Assistant
 
-This application creates a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about a custom-made diary. For demonstration, the system uses an arbitrarily created diary, with AI generated entries stored in a .csv file. The script for injecting this data appropriately into a PostgreSQL database with vector embeddings is provided, it enables context-aware responses to user queries.
+This application creates a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about their custom-made diary. For demonstration, the system uses an arbitrarily created diary, with AI generated entries stored in a .csv file. The script for injecting this data appropriately into a PostgreSQL database with vector embeddings is provided, it enables context-aware responses to user queries.
 
 <div align="center">
   <h3>🖥️ Gradio Web Interface</h3>
