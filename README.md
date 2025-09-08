@@ -2,6 +2,16 @@
 
 This application creates a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about a custom-made diary. For demonstration, the system uses an arbitrarily created diary, with AI generated entries stored in a .csv file. The script for injecting this data appropriately into a PostgreSQL database with vector embeddings is provided, it enables context-aware responses to user queries.
 
+## Demonstration
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/JoeCardoso13/JoeCardoso13/main/assets/Diary_Bot_Gradio_UI.gif" alt="Gradio UI Demonstration" width="600">
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/JoeCardoso13/JoeCardoso13/main/assets/Diary_Bot_CLI.gif" alt="CLI Demonstration" width="600">
+</div>
+
 ## Prerequisites
 
 - Python 3.8+
