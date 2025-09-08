@@ -4,17 +4,9 @@ This application creates a Retrieval-Augmented Generation (RAG) system that allo
 
 ## Demonstration
 
-<div align="center">
-  <h3>🖥️ Gradio Web Interface</h3>
-  <img src="https://raw.githubusercontent.com/JoeCardoso13/JoeCardoso13/main/assets/Diary_Bot_Gradio_UI.gif" alt="Gradio UI Demonstration" width="100%" style="max-width: 800px; border-radius: 10px; border: 2px solid #e1e4e8; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
-</div>
-
-<br><br>
-
-<div align="center">
-  <h3>⌨️ Command Line Interface</h3>
-  <img src="https://raw.githubusercontent.com/JoeCardoso13/JoeCardoso13/main/assets/Diary_Bot_CLI.gif" alt="CLI Demonstration" width="100%" style="max-width: 800px; border-radius: 10px; border: 2px solid #e1e4e8; box-shadow: 0 6px 12px rgba(0,0,0,0.1);">
-</div>
+| Gradio UI                                                                                                                                           | CLI Demo                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/JoeCardoso13/JoeCardoso13/main/assets/Diary_Bot_Gradio_UI.gif" width="100%" style="border-radius:10px"> | <img src="https://raw.githubusercontent.com/JoeCardoso13/JoeCardoso13/main/assets/Diary_Bot_CLI.gif" width="100%" style="border-radius:10px"> |
 
 ## Prerequisites
 
