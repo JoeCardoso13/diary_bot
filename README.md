@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/JoeCardoso13/JoeCardoso13/main/assets/under-construction.svg" alt="Under Construction" />
+</div>
+
+---
+
 # Diary Bot RAG Assistant
 
 This application creates a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about their custom-made diary. For demonstration, the system uses an arbitrarily created diary, with AI generated entries stored in a .csv file. The script for injecting this data appropriately into a PostgreSQL database with vector embeddings is provided, it enables context-aware responses to user queries.
@@ -121,3 +127,12 @@ The `diary` table contains:
 - `entry`: Content of diary entry
 - `embedding`: Vector embedding of the entry text
 
+---
+
+## What's Next
+
+The next evolution of Diary Bot leans into the Model Context Protocol.
+
+The idea: expose the existing RAG system as an MCP server, then surface it as an MCP App — an iframe that lives inside a claude.ai session. The agent there can see everything the app renders, query the diary freely, and reason over it in real time. The RAG system stops being a standalone tool and becomes something a live Claude agent can reach into on demand.
+
+The gut feeling driving this: a diary is personal context. An agent with access to your personal context — able to surface patterns, make connections, answer questions you didn't know to ask — is a fundamentally different kind of assistant.
